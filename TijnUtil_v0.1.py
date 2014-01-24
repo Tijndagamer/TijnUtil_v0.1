@@ -118,20 +118,6 @@ def randomintintbyte():
         randomint = random.randint(-99999999999999999999,99999999999999999999)
         print(randomint)
         intbyte.append(int(randomint))
-def randomwordstrbyte():
-        random_word = random.choice([
-                'r/funny',
-                'Python',
-                'r/Askreddit',
-                'Facebook',
-                'Skype',
-                'Youtube',
-                ‘TijnUtility’,
-                'Github',
-                #You can add as much words as you like here!
-        ])
-        strbyte.append(str(random_word))
-        print(random_word)
 def htmlgen():
         print("<html>")
         print("<head>")
@@ -597,11 +583,6 @@ def sysls():
         ls = os.popen("ls")
         lsr = ls.read()
         print(lsr)
-def python():
-        filepy = raw_input(">file =")
-        p = os.popen("sudo python " + filepy)
-        q = p.read()
-        print(q)
 def reboot():
         sure = raw_input(">Are you sure you want to shutdown?y/n")
         if sure == "y":
@@ -610,16 +591,6 @@ def reboot():
                 os.system("sudo reboot")
         else:
                 print("Reboot cancelled")
-def wget():
-        wget = raw_input(">wget =")
-        q = os.popen("wget " + wget)
-        d = q.read()
-        print(d)
-def aptget():
-        aptget = raw_input(">apt-get =")
-        q = os.popen("sudo apt-get " + aptget)
-        d = q.read()
-        print(d)
 def emailsendtemp():
         emailcheck()
         temp = temp()
@@ -645,9 +616,9 @@ def emailsendtemp():
 
 #Commandline function
 
-#to disable a command you should make a comment of it. e.g:(note the #)
-#if command == "command":
-#       command()
+#to disable a command you should make a comment of it. e.g:
+##if command == "command":
+##       command()
 def cmdline():
         count = 0
         while count < 2:
