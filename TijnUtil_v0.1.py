@@ -39,7 +39,7 @@ eMailPass = ""#your email password (please be aware that this is not encrypted)
 #-------------------------------------------------------
 
 #welcoming script:
-print(">Welcome to TijnUtility version 0.4")
+print(">Welcome to TijnUtility version 0.1")
 time.sleep(0.5)
 print(">to save the data use the save command, type help if you need help")
 time.sleep(0.5)
