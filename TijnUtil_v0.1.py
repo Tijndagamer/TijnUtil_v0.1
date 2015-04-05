@@ -3,7 +3,6 @@ Written in Python 2.7.5
 Uncomment the #RPI functions if you're using a RPi
 You can disable functions to put a # before it by the cmdline function
 Published under the GPL v2 licence
-For more info email to: tijndagamer25@gmail.com
 
 Copyright Tijndagamer 2014
 """
